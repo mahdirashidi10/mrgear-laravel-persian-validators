@@ -17,8 +17,8 @@
         }
     },
     "require": {
-        "php": "^8.0",
-        "morilog/jalali": "^3.0"
+        "php": ">=8.0",
+        "laravel/framework": ">=9.0"
     },
     "extra": {
         "laravel": {
@@ -27,7 +27,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "stable"
 
 }
