@@ -1,0 +1,33 @@
+{
+    "name": "mrgear/persian-validator",
+    "description": "Laravel package for Persian-specific validators",
+    "type": "library",
+    "keywords": ["mrgear","laravel","persian", "validators" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahdi Rashidi",
+            "email": "mahdirashidi.developer@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MRGear\\PersianValidator\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "morilog/jalali": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MRGear\\PersianValidator\\PersianValidatorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
