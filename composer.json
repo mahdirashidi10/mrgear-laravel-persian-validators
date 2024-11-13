@@ -1,5 +1,5 @@
 {
-    "name": "mrgear/persian-validator",
+    "name": "mrgear/laravel-persian-validator",
     "description": "Laravel package for Persian-specific validators",
     "type": "library",
     "keywords": ["mrgear","laravel","persian", "validators" ],
